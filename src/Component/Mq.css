@@ -1,0 +1,29 @@
+body{
+    background-color: brown;
+    
+}
+.bg{
+    background-color: aqua;
+}
+h1:hover{
+    color: rgb(0, 13, 255);
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding: 10px;
+}
+/* moble     */
+@media screen and (min-width:576px){
+    body{
+        background-color: rgb(183, 183, 214);
+    }
+    h1:hover{
+        font-size: 50px;
+        text-decoration: dashed;
+        text-align: center;
+        color: rgb(255, 6, 6);
+    }
+    .bg{
+        background-color: darkgreen;
+    }
+}
+

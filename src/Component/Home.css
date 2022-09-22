@@ -1,0 +1,56 @@
+.bg{
+    position: absolute;
+}
+.title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 500px;
+   margin-right: 500px;
+   margin-top: 10px;
+   padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(232, 111, 218);
+}
+
+.i1:hover{
+    border:2px solid red;
+    border-radius: 20px;
+}
+.box{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    height: 94vh;
+}
+.bgImage{
+    background-image: url("./Images/bg.jpg");
+    background-size: cover;
+    width: 97vw;
+    height: 86vh;
+    position: fixed;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+}
+.borderLine{
+    border: 1px solid rgb(58, 57, 57);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    height: 520px;
+    width: 100%;
+}
+.form-control{
+    width: 450px;
+}
